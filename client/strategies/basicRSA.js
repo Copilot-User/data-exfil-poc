@@ -1,6 +1,10 @@
 import nodeRSA from 'node-rsa';
 import got from 'got';
 
+/**
+ * This strategy is encrypts the body with a public key and the private key is sent in the request.
+ * The private key is shifted by one character to avoid detection by static analysis. The key should really be generated "offline" and not transmitted across the wire, especially with the request.
+ */
 export default async function (chunk) {
     const key = new nodeRSA({ b: 512 });
 
