@@ -1,0 +1,17 @@
+{
+  "name": "data-exfil-poc-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --es-module-specifier-resolution=node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "got": "^13.0.0",
+    "node-rsa": "^1.1.1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "data-exfil-poc-server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --es-module-specifier-resolution=node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.23.2",
+    "node-rsa": "^1.1.1"
+  }
+}
