@@ -4,4 +4,4 @@ This is a POC of how trivial it is to exfiltrate data and avoid all current, maj
 ## Instructions
 Server can be started with `npm start` in the `./server` folder.
 
-Client can be started with `npm start [chunkSize=100KB] [strategy=basicRSA]` in the `./client` folder.
+Client can be started with `npm start [chunkSize=102400] [strategy=basicRSA]` in the `./client` folder.
